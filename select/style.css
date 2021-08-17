@@ -1,0 +1,86 @@
+.select {
+ font-size: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ line-height: 10px;
+}
+
+.select-selected p {
+ margin: auto;
+}
+
+/* Неактивный реугольник */
+   .triangle {
+  position: absolute;
+  content: "";
+  top: 25px;
+  left: 238px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-color: #ddb70b transparent transparent transparent;
+  display: block;
+}
+/* Активный треугольник */
+  .triangle-active {
+  position: absolute;
+  content: "";
+  top: 17px;
+  left: 238px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-color: transparent transparent #ddb70b transparent;
+  display: block;
+}
+
+.select-selected {
+    background-color: rgb(255, 220, 180);
+    padding: 15px;
+    width: 220px;
+    height: 10px;
+    border-radius: 10% 2%;
+    border: 2px solid rgb(170, 157, 157);
+    text-align: center;
+    vertical-align: middle;
+    color: lightsalmon;
+}
+
+ul {
+ list-style: none;
+ margin: 0;
+ margin-left: -40px;
+ display: none; 
+}
+
+.option {
+    background-color: rgba(255, 220, 180, 0.705);
+    padding: 15px;
+    width: 220px;
+    height: 10px;
+    border-radius: 10% 2%;
+    border: 2px solid rgb(170, 157, 157);
+    text-align: center;
+    color: lightsalmon;
+    display: block;
+}
+
+.option-active {
+    display: block;
+}
+
+.triangle-deactivate {
+    display: none;
+}
+
+.option:hover {
+ background-color: rgba(216, 205, 192, 0.664);
+}
+
+.active {
+background-color: rgba(216, 205, 192, 0.664);
+}
+
+a {
+    text-decoration: none;
+    color: lightsalmon;
+}
